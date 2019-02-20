@@ -4,40 +4,70 @@
 
 ### Implement Azure cloud data warehouses
 
- - design Data Lake architecture
- - design the data schema
- - provision the data warehouse
+ - design Data Lake architecture (https://azure.microsoft.com/en-us/solutions/architecture/modern-data-warehouse/)
+ - design the data schema (https://docs.microsoft.com/en-us/azure/architecture/data-guide/)
+ - provision the data warehouse (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/create-data-warehouse-portal)
+
+References:
+- Modern data warehouse https://azure.microsoft.com/en-us/solutions/architecture/modern-data-warehouse/
+- Implement a Data Warehouse with Azure SQL Data Warehouse https://docs.microsoft.com/en-us/learn/paths/implement-sql-data-warehouse/
+- Design a Data Warehouse with Azure SQL Data Warehouse https://docs.microsoft.com/en-us/learn/modules/design-azure-sql-data-warehouse/index
 
 ### Implement No-SQL Databases
 
- - manage data distribution and partitions
- - select the database platform
- - model data storage based on use cases
- - select storage types
- - provision storage accounts
- - provision Data Lake storage
- - integrate WebHDFS applications with Data Lake Storage
- - provision in CosmosDB
+ - manage data distribution and partitions (https://docs.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning)
+ - select the database platform (https://azure.microsoft.com/en-us/product-categories/databases/)
+ - model data storage based on use cases (https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-comparison)
+ - select storage types (https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
+ - provision storage accounts (https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal)
+ - provision Data Lake storage (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-quickstart-create-account)
+ - integrate WebHDFS applications with Data Lake Storage (https://docs.microsoft.com/en-us/rest/api/datalakestore/webhdfs-filesystem-apis)
+ - provision in CosmosDB (https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-database-account)
+
+References:
+- Azure for the data engineer https://docs.microsoft.com/en-us/learn/paths/azure-for-the-data-engineer/
+- Azure Cosmos DB Documentation https://docs.microsoft.com/en-us/azure/cosmos-db/
+- Azure Storage Documentation https://docs.microsoft.com/en-us/azure/storage/
+- Introduction to Azure Data Lake Storage Gen2 https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction
+- Introduction to Azure Data Lake storage https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-data-lake-storage/index
+- Compare storage options for use with Azure HDInsight
+https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-compare-storage-options
+- Data partitioning strategies https://docs.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning-strategies#partitioning-cosmos-db
 
 ### Implement Azure SQL Database
 
- - provision Azure SQL Database
- - configure elastic pools
- - configure data backup strategies
- - configure elastic jobs
- - provision Azure SQL database managed instance
- - configure connections
- - manage data synchronization
+ - provision Azure SQL Database (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started)
+ - configure elastic pools (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool-manage)
+ - configure data backup strategies (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups)
+ - configure elastic jobs (https://docs.microsoft.com/en-us/azure/sql-database/elastic-jobs-overview)
+ - provision Azure SQL database managed instance (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-get-started)
+ - configure connections (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-configure-vm https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-configure-p2s https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query)
+ - manage data synchronization (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-sql-data-sync)
+
+References:
+- Provision an Azure SQL database to store application data https://docs.microsoft.com/en-us/learn/modules/provision-azure-sql-db/
+- Step-by-Step tutorials and learning materials
+- Store Azure SQL Database backups for up to 10 years https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-index#step-by-step-tutorials-and-learning-materials
+- Sync data across multiple cloud and on-premises databases with SQL Data Sync https://docs.microsoft.com/en-us/azure/sql-database/sql-database-sync-data
 
 ### Implement hybrid data scenarios
 
- - design hybrid solution
- - design data replication and synchronization
+ - design hybrid solution (https://docs.microsoft.com/en-us/sql/sql-server/stretch-database/stretch-database?view=sql-server-2017)
+ - design data replication and synchronization (https://docs.microsoft.com/en-us/azure/sql-database/replication-to-sql-database https://docs.microsoft.com/en-us/azure/sql-database/sql-database-high-availability https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-sql-data-sync)
+
+References
+- SQL Server Stretch Database Documentation https://docs.microsoft.com/en-us/azure/sql-server-stretch-database/
+- Overview of Always On Availability Groups (SQL Server) https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server?view=sql-server-2017
 
 ### Manage Azure DevOps Pipelines
 
- - use a build service
- - deploy using Azure Resource Manager templates
+ - use a build service (https://docs.microsoft.com/en-us/azure/devops/pipelines/process/tasks?view=azure-devops&tabs=yaml)
+ - deploy using Azure Resource Manager templates (https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-resource-group-deployment?view=azure-devops)
+
+References
+- Azure SQL database deployment https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml
+- How-To: CI/CD with App Service and Azure Cosmos DB https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/cosmos-db?view=azure-devops
+- Service Fabric Application Deployment task https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops
 
 ## Manage and Develop Data Processing (30-35%)
 
