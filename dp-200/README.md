@@ -10,6 +10,7 @@
 
 References:
 - Modern data warehouse https://azure.microsoft.com/en-us/solutions/architecture/modern-data-warehouse/
+- Modern data warehouse https://docs.microsoft.com/en-us/learn/paths/modern-data-warehouse/
 - Implement a Data Warehouse with Azure SQL Data Warehouse https://docs.microsoft.com/en-us/learn/paths/implement-sql-data-warehouse/
 - Design a Data Warehouse with Azure SQL Data Warehouse https://docs.microsoft.com/en-us/learn/modules/design-azure-sql-data-warehouse/index
 
@@ -68,18 +69,26 @@ References
 - Azure SQL database deployment https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=yaml
 - How-To: CI/CD with App Service and Azure Cosmos DB https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/cosmos-db?view=azure-devops
 - Service Fabric Application Deployment task https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/service-fabric-deploy?view=azure-devops
+- Azure Resource Manager templates for Azure SQL Database https://docs.microsoft.com/en-us/azure/sql-database/sql-database-resource-manager-samples
 
 ## Manage and Develop Data Processing (30-35%)
 
 ### Implement big data environments
 
- - implement Hadoop clusters
- - implement Databricks environment
+ - implement Hadoop clusters (https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-administer-use-portal-linux)
+ - implement Databricks environment (https://docs.microsoft.com/en-us/azure/azure-databricks/quickstart-create-databricks-workspace-portal)
+
+References
+- What is Azure HDInsight and the Apache Hadoop technology stack https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/apache-hadoop-introduction
+- What is Azure Databricks? https://docs.microsoft.com/en-us/azure/azure-databricks/what-is-azure-databricks
 
 ### Develop batch processing solutions
 
- - develop batch processing solutions using Spark
- - develop batch processing solutions using Azure Databricks
+ - develop batch processing solutions using Spark (https://github.com/azure/aztk https://azure.microsoft.com/en-us/blog/on-demand-spark-clusters-on-docker/)
+ - develop batch processing solutions using Azure Databricks (https://docs.azuredatabricks.net/delta/delta-batch.html#table-batch-reads-and-writes)
+
+References
+- Choosing a batch processing technology in Azure https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing
 
 ### Develop streaming solutions
 
