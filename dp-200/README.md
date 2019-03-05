@@ -89,29 +89,41 @@ References
 
 References
 - Choosing a batch processing technology in Azure https://docs.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/batch-processing
+- Optimal Strategies for Large-Scale Batch ETL Jobs https://databricks.com/session/optimal-strategies-for-large-scale-batch-etl-jobs
 
 ### Develop streaming solutions
 
- - implement event processing using Azure stream analytics
- - query data using Azure Stream Analytics
- - configure Azure Stream Analytics to read from Event Hub
- - configure Azure Stream Analytics to read from BLOB storage
+ - implement event processing using Azure stream analytics (https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-quick-create-portal)
+ - query data using Azure Stream Analytics (https://azure.microsoft.com/en-us/resources/videos/deep-dive-azure-stream-analytics-query-language/ https://docs.microsoft.com/en-us/stream-analytics-query/stream-analytics-query-language-reference)
+ - configure Azure Stream Analytics to read from Event Hub (https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-twitter-sentiment-analysis-trends https://docs.microsoft.com/pt-br/azure/stream-analytics/stream-analytics-define-inputs)
+ - configure Azure Stream Analytics to read from BLOB storage (https://docs.microsoft.com/pt-br/azure/stream-analytics/stream-analytics-define-inputs)
+
+References
+- Stream Analytics Documentation https://docs.microsoft.com/en-us/azure/stream-analytics/
+- Understand inputs for Azure Stream Analytics https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-add-inputs
+- Understanding Azure Stream Analytics https://app.pluralsight.com/library/courses/azure-stream-analytics-understanding/table-of-contents
 
 ### Develop integration solutions
 
- - create data pipeline systems in Azure
- - develop data integration pipelines with Azure Data Factory
- - develop data integration pipelines with Azure Databricks
+ - create data pipeline systems in Azure (https://docs.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-transfer#data-pipeline)
+ - develop data integration pipelines with Azure Data Factory (https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
+ - develop data integration pipelines with Azure Databricks (https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook#create-a-pipeline)
+
+References
+- Azure Data Factory Documentation https://docs.microsoft.com/en-us/azure/data-factory/
 
 ### Implement data migration
 
- - transform data
- - bulk load data with PolyBase
+ - transform data (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/design-elt-data-loading)
+ - bulk load data with PolyBase (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/load-data-wideworldimportersdw)
+
+References
+- What is PolyBase? https://docs.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide?view=sql-server-2017
 
 ### Automate Data Factory Pipelines
 
- - deploy data factory pipelines
- - configure Data Factory
+ - deploy data factory pipelines (https://docs.microsoft.com/EN-US/azure/data-factory/continuous-integration-deployment)
+ - configure Data Factory (https://docs.microsoft.com/en-us/azure/data-factory/introduction)
 
 ## Manage Data Security (15-20%)
 
