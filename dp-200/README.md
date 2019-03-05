@@ -131,63 +131,70 @@ References
 
  - connect to sources
  - create connection objects
- - install Gateways
+ - install Gateways (https://docs.microsoft.com/en-us/azure/analysis-services/analysis-services-gateway)
 
 ### Configure authentication and authorization
 
- - set up firewall rules
- - integrate Azure AD
- - design Cosmos DB security
- - design Data Lake security
- - design Azure SQL DB security
+ - set up firewall rules (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-firewall-configure https://docs.microsoft.com/en-us/azure/sql-database/sql-database-server-level-firewall-rule )
+ - integrate Azure AD (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-aad-authentication)
+ - design Cosmos DB security (https://docs.microsoft.com/en-us/azure/cosmos-db/secure-access-to-data https://docs.microsoft.com/en-us/rest/api/cosmos-db/access-control-on-cosmosdb-resources)
+ - design Data Lake security (https://docs.microsoft.com/en-us/azure/storage/common/storage-data-lake-storage-security-guide)
+ - design Azure SQL DB security (https://docs.microsoft.com/en-us/azure/security/azure-database-security-best-practices#enable-database-authentication)
  - manage Access Control
- - manage permissions on resources
+ - manage permissions on resources (https://docs.microsoft.com/en-us/azure/role-based-access-control/overview https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
+
+References
+- Managing Logins, Users, and Schemas How-to Topics https://docs.microsoft.com/pt-br/sql/relational-databases/security/authentication-access/managing-logins-users-and-schemas-how-to-topics?view=sql-server-2017
+- An overview of Azure SQL Database security capabilities https://docs.microsoft.com/en-us/azure/sql-database/sql-database-security-overview#access-management
 
 ### Manage and enforce data policies and standards
 
- - mask data
- - encrypt data at rest
- - encrypt data in motion
- - encrypt data elements
- - configure audit
+ - mask data (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-dynamic-data-masking-get-started)
+ - encrypt data at rest (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-always-encrypted https://docs.microsoft.com/en-us/azure/security/azure-security-encryption-atrest)
+ - encrypt data in motion (https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-azure-sql https://docs.microsoft.com/en-us/azure/cosmos-db/database-encryption-at-rest)
+ - encrypt data elements (https://docs.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=sql-server-2017 https://www.sqlshack.com/sql-server-data-security-feature-rls-row-level-security-and-gdpr/)
+ - configure audit (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-auditing https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-auditing)
+
+References
+- Azure Data Security and Encryption Best Practices https://docs.microsoft.com/en-us/azure/security/azure-security-data-encryption-best-practices
 
 ### Set up notifications
 
- - set up alerts on security threats
- - set up alerts on unexpected resource usage
+ - set up alerts on security threats (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-threat-detection-overview https://docs.microsoft.com/en-us/azure/security-center/security-center-managing-and-responding-alerts)
+ - set up alerts on unexpected resource usage (https://docs.microsoft.com/en-us/azure/billing/billing-getting-started?view=azps-1.4.0)
 
 ## Monitoring Data Solutions (10-15%)
 
 ### Monitor data storage
 
- - implement BLOB storage monitoring
- - implement Data Lake Store monitoring
- - implement HDInsight monitoring
+ - implement BLOB storage monitoring (https://docs.microsoft.com/en-us/azure/storage/common/storage-monitor-storage-account)
+ - implement Data Lake Store monitoring (https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-best-practices#monitoring-considerations)
+ - implement HDInsight monitoring (https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-oms-log-analytics-tutorial)
 
 ### Monitor databases for a specified scenario
 
- - implement SQL Database monitoring
- - implement SQL Data Warehouse monitoring
- - implement Cosmos DB monitoring
+ - implement SQL Database monitoring (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-monitor-tune-overview)
+ - implement SQL Data Warehouse monitoring (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity)
+ - implement Cosmos DB monitoring (https://docs.microsoft.com/en-us/azure/cosmos-db/use-metrics https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-accounts)
 
 ### Monitor data processing
 
- - design and implement Data Factory monitoring
- - monitor Azure Databricks
- - monitor HDInsight processing
- - monitor stream analytics
+ - design and implement Data Factory monitoring (https://docs.microsoft.com/en-us/azure/data-factory/monitor-visually)
+ - monitor Azure Databricks (https://msdn.microsoft.com/en-us/magazine/mt846727.aspx)
+ - monitor HDInsight processing (https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-administer-use-portal-linux#monitor-jobs)
+ - monitor stream analytics (https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitoring https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-set-up-alerts)
 
 ## Manage and Troubleshoot Azure Data Solutions (10-15%)
 
 ### Manage Optimization
 
  - troubleshoot data partitioning bottlenecks
- - optimize HIVE processing
- - optimize Data Lake
- - optimize SPARK processing
- - optimize Azure Stream Analytics
- - optimize Data Warehouse
- - optimize SQL DB
+ - optimize HIVE processing (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-performance-tuning-hive)
+ - optimize Data Lake (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-performance-tuning-mapreduce)
+ - optimize SPARK processing (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-performance-tuning-spark)
+ - optimize Azure Stream Analytics (https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-streaming-unit-consumption https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-parallelization)
+ - optimize Data Warehouse (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-best-practices)
+ - optimize SQL DB (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-query-performance)
  - manage data life cycle
 
 ### Manage business continuity
