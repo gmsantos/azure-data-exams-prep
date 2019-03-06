@@ -193,7 +193,7 @@ References
  - optimize Data Lake (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-performance-tuning-mapreduce)
  - optimize SPARK processing (https://docs.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-performance-tuning-spark)
  - optimize Azure Stream Analytics (https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-streaming-unit-consumption https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-parallelization)
- - optimize Data Warehouse (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-best-practices)
+ - optimize Data Warehouse (https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-best-practices https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot#performance)
  - optimize SQL DB (https://docs.microsoft.com/en-us/azure/sql-database/sql-database-query-performance)
  - manage data life cycle
 
