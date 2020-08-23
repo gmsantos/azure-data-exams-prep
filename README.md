@@ -1,4 +1,4 @@
-# Azure Data Engineer Exams preparation
+# Azure Data Exams preparation
 
  > **NOTICE** This guide is not up-to-date with the lastest exam skill set. 
  >
